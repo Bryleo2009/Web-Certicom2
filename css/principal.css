@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Manrope:300,300i,400,400i,500,500i,600,600i,700,700i,800|Roboto:300,300i,400,400i,600,600i,700,700i&display=swap");
-:root {
-  --font-1: "Roboto", sans-serif;
-  --font-2: "Manrope", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Bree+Serif&family=Righteous&family=Signika&display=swap');
 
-  /* monospace
-     */
-  --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+:root {
+  --letra: 'Basic', sans-serif; /*h1*/
+  --letra2: 'Righteous', cursive; /*h2*/
+  --letra3: 'Signika', sans-serif; /*h3*/
+  --letra4: 'Bree Serif', serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -560,7 +559,7 @@ a img {
 }
 
 .row {
-    width: 92%;
+    width: 93%;
     max-width: var(--width-grid-max);
     margin: 0 auto;
     display: -ms-flexbox;
