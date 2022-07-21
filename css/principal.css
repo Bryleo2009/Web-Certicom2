@@ -44,46 +44,7 @@
 /* ------------------------------------------------------------------- 
  * ## vertical spacing and typescale
  * ------------------------------------------------------------------- */
-:root {
-  /* type scale
-     * ratio 1:2 | base: 18px
-     * -------------------------------------------------------
-     *
-     * --text-display-3 = (77.40px)
-     * --text-display-2 = (64.50px)
-     * --text-display-1 = (53.75px)
-     * --text-xxxl      = (44.79px)
-     * --text-xxl       = (37.32px)
-     * --text-xl        = (31.10px)
-     * --text-lg        = (25.92px)
-     * --text-md        = (21.60px)
-     * --text-size      = (18.00px) BASE
-     * --text-sm        = (15.00px)
-     * --text-xs        = (12.50px)
-     *
-     * -------------------------------------------------------
-     */
-  --text-scale-ratio: 1.2;
-  --text-size: var(--base-font-size);
-  --text-xs: calc(
-    (var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio)
-  );
-  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
-  --text-md: calc(
-    var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio)
-  );
-  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
-  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
-  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
-  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
-  --text-display-1: calc(var(--text-xxxl) * var(--text-scale-ratio));
-  --text-display-2: calc(var(--text-display-1) * var(--text-scale-ratio));
-  --text-display-3: calc(var(--text-display-2) * var(--text-scale-ratio));
 
-  /* default button height
-     */
-  --vspace-btn: var(--vspace-2);
-}
 
 /* on mobile devices below 600px
  */
@@ -157,7 +118,7 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari. */
 
 h1 {
-  font-size: 2em;
+  font-size: medium;
   margin: 0.67em 0;
 }
 
@@ -196,6 +157,7 @@ pre {
 
 a {
   background-color: transparent;
+  font-size: medium;
 }
 
 /* 1. Remove the bottom border in Chrome 57-
@@ -370,6 +332,7 @@ progress {
 
 textarea {
   overflow: auto;
+  font-size: medium;
 }
 
 /* 1. Add the correct box sizing in IE 10.
@@ -513,6 +476,7 @@ th,
 td {
   margin: 0;
   padding: 0;
+  font-size: medium;
 }
 
 p {
@@ -561,7 +525,7 @@ a img {
 .row {
     width: 93%;
     max-width: var(--width-grid-max);
-    margin: 0 auto;
+    margin: 100px auto;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
