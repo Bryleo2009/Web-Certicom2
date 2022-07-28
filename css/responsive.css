@@ -191,6 +191,43 @@
     max-width: 100%;
     margin-bottom: 20px;
   }
+  .container2 {
+    display: grid !important;
+    height: 100% !important;
+  }
+  .container2 figure .capa {
+    position: static !important;
+    top: -50px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: white;
+    padding: 25px !important;
+  }
+  .box2 > img {
+    height: auto !important;
+  }
+  .box2 > span {
+    height: 0 !important;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .box2 {
+    margin-top: 30px !important;
+  }
+  .align-content-center{
+    align-content: flex-start !important;
+  }
+  /**/
+  .cta span {
+    font-size: 3vw !important;
+  }
+
+  .cta > span::before {
+    content: "Más" !important;
+  }
+  .misiones{
+    padding: 0 !important;
+  }
 }
 @media (max-width: 1280px) {
   .carousel-caption {

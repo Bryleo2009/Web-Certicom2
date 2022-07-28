@@ -15,6 +15,7 @@
   --color-2: #EFF0F0;
   --color-3: #131516;
   --color-4: #616363;
+  --color-5: #A6A8AA;
 
   /* shades 
      * generated using 
@@ -525,7 +526,7 @@ a img {
 .row {
     width: 93%;
     max-width: var(--width-grid-max);
-    margin: 100px auto;
+    margin: 0px auto;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -600,4 +601,8 @@ a img {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
+}
+
+.titulo-section{
+  padding-bottom: 80px;
 }
